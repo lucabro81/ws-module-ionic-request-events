@@ -1,7 +1,7 @@
 import { EventEmitter, Injectable } from '@angular/core';
 
 @Injectable()
-export class IonicRequestEventsService {
+export class RequestEventsService {
 
     public onEndRequest = new EventEmitter<any>();
     public onReadStorageSuccess = new EventEmitter<any>();
